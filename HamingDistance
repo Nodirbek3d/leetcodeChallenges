@@ -1,0 +1,6 @@
+class HamingDistance {
+    public int hammingDistance(int x, int y) {
+        int bits = Integer.bitCount(x^y);
+        return bits;
+    }
+}
